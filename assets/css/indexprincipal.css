@@ -1,10 +1,13 @@
+
 body{
     display: block;
     margin: 0 auto;
-    padding: 0;
+    padding: 0; 
+
 }
 .list{
     margin-top: 0;
+    margin-bottom: 0;
     height: 60px;
     align-items: center;
     list-style-type: none;
@@ -34,70 +37,93 @@ body{
 #title-head{
     position:absolute;
     margin-top: -180px;
-    margin-left: 32%;
+    margin-left: 600px;
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
     text-shadow: 20px black;
+    text-align: center;
 }
-#title-head h1{
-    margin-left: 37%;
-}
+
 header{
     height: 250px;
     align-items: center;
     background-image: url(../img/Motherboard.png);
     image-resolution: 40%;
+    margin-bottom: 0;
 }
 main{
-    position: relative;
-    margin-left: 15px;
-    width: 98%;
-    height: 700px;
-    border: 2px solid black;
+    display: block;
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
     background-image: url(../img/3d_printers.jpg);
+    background-repeat: no-repeat;
+    
 }
-#produto1{
-    padding: 0;
-    display: flex;
-    width: 100%;
-    height: 290px;
-    text-align: left;
-    font-size: 15px;
-    border-bottom: solid 2px black;
+#introduction{
+    display: block;
+    margin-top: 170px;
+    margin-left: 470px;
+    max-width: 760px;
+    padding: 0 10px;
+    text-align: center;
 
 }
-.product-image img{
-    width: 300px;
-    height: 250px;
-   margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: left;
-    border: 2px solid black;
-    border-radius: 10px;
+#introduction h1{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 420px;
+    margin-left: 270px;
+    margin-bottom: 80px;
+    height: 68px;
+    border-radius: 30px;
+    background-color: rgb(182, 175, 175, 0.5);
+    border: #544d4d solid 1px;
 }
-.information{
-    text-decoration: none;
-    list-style-type: none;
+#introduction h2 {
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(182, 175, 175, 0.5);
+    height: 220px;
+    width: 780px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    margin-left: 100px;
+    border: #544d4d solid 1px;
 }
-.titulo{
-    font-size: 40px;
-    margin-bottom: 50px;
+#int2{
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 755px;
+    align-content: center;
+    max-width: 400px;
+    height: 70px;
+    border: 11px ridge #544d4d;
+    border-radius: 30px;
+    background-color: white;
 }
-.descritivo{
-    font-size: 20px;
-    margin-bottom: 50px;
+#images-int2 img{
+    margin-top: 80px;
+    max-width: 300px;
+    max-height: 300px;
+    
 }
-.preco{
-    margin-bottom: 40px;
+.img1{
+    margin-left: -600px;
+    position: relative;
+    height: 300px;
+    border: 6px solid #544d4d;
+
 }
-.comprar{
-    text-align: end;
-    margin-right: -200px;
-    background-image: linear-gradient(to right,green, rgb(14, 205, 14));
-    margin-left: 900px;
-    border-radius: 4px;
-    border: black solid 2px;
+.img2{
+    position: relative;
+    border: 6px solid #544d4d;
+}
+.img3{
+    position: relative;
+    height: 300px;
+    border: 6px solid #544d4d;
 }
 
